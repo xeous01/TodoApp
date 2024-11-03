@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{993E563F-AF3B-402B-8970-F89E346B74CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C7F6D71A-8CC2-4669-B2AB-812013CDA4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{D8DFC841-2623-4EAB-A5ED-F1D79176A994}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993E563F-AF3B-402B-8970-F89E346B74CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993E563F-AF3B-402B-8970-F89E346B74CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993E563F-AF3B-402B-8970-F89E346B74CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993E563F-AF3B-402B-8970-F89E346B74CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DFC841-2623-4EAB-A5ED-F1D79176A994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DFC841-2623-4EAB-A5ED-F1D79176A994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DFC841-2623-4EAB-A5ED-F1D79176A994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DFC841-2623-4EAB-A5ED-F1D79176A994}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8DFC841-2623-4EAB-A5ED-F1D79176A994} = {C7F6D71A-8CC2-4669-B2AB-812013CDA4FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27FB77F5-3C85-4FF4-8CD7-7FE56546D8D8}
